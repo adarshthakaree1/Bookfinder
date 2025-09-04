@@ -1,0 +1,54 @@
+Book Finder is a simple and powerful web application that
+allows users to search for books by title, author, or subject
+using the Google Books API. It provides a smooth search 
+experience with debounced API calls to avoid excessive requests 
+and supports pagination for browsing through multiple pages of results.
+
+Features:
+ Search Books by title, author, or keyword
+ Debounced Search – prevents API calls on every keystroke
+ Pagination – navigate through next/previous pages of results
+
+View detailed information such as:
+Title
+Name
+Occupation 
+
+Description
+Preview Link
+ Tech Stack
+
+Frontend: React (with Hooks) 
+Styling:  CSS Modules
+API
+
+
+book-finder/
+│── public/          # Static assets
+│── src/
+│   ├──Bookfinder.css/ 
+│   ├──Bookfinder.jsx# Reusable components (SearchBar, BookCard, Pagination)
+│   ├── pages/       # Main pages (Home, Book Details)
+│   ├── utils/       # Helper functions (debounce, API handler)
+│   ├── App.js       # Main app entry
+│   └── index.js     # Render app
+│── package.json
+│── README.md
+
+
+Future Enhancements:-
+ Save favorite books
+ Dark mode toggle
+ Advanced filters (year, genre, publisher)
+ Mobile responsive improvements
+ Contributing
+Contributions 
+Fork the repo
+
+Create a feature branch (git checkout -b feature-name)
+
+Commit changes (git commit -m "Added new feature")
+
+Push branch (git push origin feature-name)
+
+Create a Pull Request
