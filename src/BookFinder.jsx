@@ -146,7 +146,7 @@ export default function BookFinder() {
         )}
       </div>
       <div className="footer">
-        Made with ❤️ by <span className="Nam">Adarsh Thakare</span>
+        Made  ❤️ by <span className="Nam">Adarsh Thakare</span>
 
       </div>
     </div>
